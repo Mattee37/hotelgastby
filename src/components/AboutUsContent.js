@@ -26,7 +26,7 @@ const AboutUsContent = () => {
   //consulta al ContentManager mediante GraphQl, no trae toda la informacion de "nosotros"
   const info = useStaticQuery(graphql`
     query {
-      allDatoCmsPagina(filter: { slug: { eq: "nosotros" } }) {
+      allDatoCmsPagina(filter: { slug: { eq: "test" } }) {
         nodes {
           titulo
           contenido
