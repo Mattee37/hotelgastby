@@ -38,6 +38,9 @@ const Nav = () => {
       </Navlink>
       <Navlink to={"/nosotros"} activeClassName="pagina-actual">
         Nosotros
+      </Navlink>{" "}
+      <Navlink to={"/test"} activeClassName="pagina-actual">
+        Test
       </Navlink>
     </Navbar>
   );
