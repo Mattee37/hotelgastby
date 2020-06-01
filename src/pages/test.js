@@ -1,11 +1,11 @@
 import React from "react";
 
 import Layout from "../components/Layout";
-import AboutUsContent from "../components/AboutUsContent";
+import TestContent from "../components/TestContent";
 
 const test = () => (
   <Layout>
-    <AboutUsContent />
+    <TestContent />
   </Layout>
 );
 
