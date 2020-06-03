@@ -56,7 +56,7 @@ const HotelImage = () => {
   return (
     <Image tag="section" fluid={image.sharp.fluid} faidId="soft">
       <ImageText>
-        <h1>Bienvenido al Hotel Gatsby</h1>
+        <h1>Bienvenido al Hotel Gatsby!</h1>
         <p>El mejor hotel para tus vacaciones</p>
       </ImageText>
     </Image>
