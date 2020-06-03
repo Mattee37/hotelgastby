@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`
+    author: `@gatsbyjs`,
   },
   plugins: [
     `gatsby-plugin-emotion`,
@@ -11,8 +11,8 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`
-      }
+        path: `${__dirname}/src/images`,
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -24,15 +24,15 @@ module.exports = {
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
-        display: `minimal-ui`
-        //icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
-      }
+        display: `minimal-ui`,
+        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+      },
     },
     {
       resolve: `gatsby-source-datocms`,
       options: {
-        apiToken: "a8d5c0a4cfa0233e31e38ccb547d3a"
-      }
-    }
-  ]
+        apiToken: "a8d5c0a4cfa0233e31e38ccb547d3a",
+      },
+    },
+  ],
 };
