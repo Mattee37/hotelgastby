@@ -24,8 +24,8 @@ export const query = graphql`
 
 const Rooms = ({
   data: {
-    allDatoCmsHabitacion: { nodes }
-  }
+    allDatoCmsHabitacion: { nodes },
+  },
 }) => {
   //desestructura desde el prop
   const { titulo, contenido, imagen } = nodes[0];
@@ -34,7 +34,7 @@ const Rooms = ({
     <Layout>
       <main
         css={css`
-          margin: 0 auto;
+          margin: 0 auto 2rem auto;
           max-width: 1200px;
           width: 95%;
         `}
