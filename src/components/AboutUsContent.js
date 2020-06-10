@@ -54,7 +54,11 @@ const AboutUsContent = () => {
       >
         {titulo}
       </h2>
-      <Contenido>
+      <Contenido
+        css={css`
+          margin-bottom: 2rem;
+        `}
+      >
         <p>{contenido}</p>
         <Image fluid={imagen.fluid} alt="imagen" />
       </Contenido>
