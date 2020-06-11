@@ -37,11 +37,23 @@ const Preview = ({ habitacion }) => {
         <h3
           css={css`
             font-size: 3rem;
+
+            @media (max-width: 766px) {
+              text-align: center;
+            }
           `}
         >
           {titulo}
         </h3>
-        <p>{contenido}</p>
+        <p
+          css={css`
+            @media (max-width: 766px) {
+              display: none;
+            }
+          `}
+        >
+          {contenido}
+        </p>
         <Boton to={slug}>Ver Habitacion</Boton>
       </div>
     </div>

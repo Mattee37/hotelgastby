@@ -5,6 +5,10 @@ import styled from "@emotion/styled";
 
 const Image = styled(BackgroundImage)`
   height: 700px;
+
+  @media (max-width: 766px) {
+    height: 500px;
+  }
 `;
 
 const ImageText = styled.div`
@@ -25,16 +29,16 @@ const ImageText = styled.div`
     font-size: 4rem;
     margin: 0%;
 
-    @media (min-width: 992px) {
-      font-size: 5.8rem;
+    @media (max-width: 766px) {
+      font-size: 2.6rem;
     }
   }
 
   p {
     font-size: 2rem;
 
-    @media (min-width: 992px) {
-      font-size: 2.6rem;
+    @media (max-width: 766px) {
+      font-size: 2rem;
     }
   }
 `;
